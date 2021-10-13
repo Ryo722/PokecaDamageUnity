@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class CardController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    GameObject parentField;
+    string field;
+
+    private void Start()
     {
-        
+        parentField = transform.parent.gameObject;
+        field = parentField.name;
+        Debug.Log(field);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void RemoveCardFromBench()
     {
-        
+        Destroy(this.gameObject);
     }
 }

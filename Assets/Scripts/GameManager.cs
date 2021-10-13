@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
     void CreateCard(Transform field)
     {
         //カードの生成とデータの受け渡し
-        GameObject card = Instantiate(cardPrefab, field, false);
+        GameObject card = Instantiate(cardPrefab, field, false)　as GameObject;
     }
 
     public void CreateCardOnBench()
