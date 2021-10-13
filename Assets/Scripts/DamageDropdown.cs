@@ -6,10 +6,11 @@ using UnityEngine.UI;
 
 public class DamageDropdown : MonoBehaviour
 {
+    Dropdown damageDropdown;
+
     // Start is called before the first frame update
     void Start()
     {
-        Dropdown ddtmp; /*  */
         List<string> optionlist = new List<string>();
 
         //Optionsに表示する数値をリストに追加
@@ -21,13 +22,23 @@ public class DamageDropdown : MonoBehaviour
 
         //DropdownコンポーネントのOptionsという項目にOptionsのリストがありました
         //それを編集するためにDropdownコンポーネントを取得
-        ddtmp = GetComponent<Dropdown>();
+        damageDropdown = GetComponent<Dropdown>();
 
         //一度すべてのOptionsをクリア
-        ddtmp.ClearOptions();
+        damageDropdown.ClearOptions();
 
         //リストを追加
-        ddtmp.AddOptions(optionlist);
+        damageDropdown.AddOptions(optionlist);
+    }
+
+    public void PlusDamage()
+    {
+        damageDropdown.value++;
+    }
+
+    public void MinusDamage()
+    {
+        damageDropdown.value--;
     }
 
 }
