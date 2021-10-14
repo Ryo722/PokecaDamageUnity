@@ -11,7 +11,6 @@ public class CardController : MonoBehaviour
     {
         parentField = transform.parent.gameObject;
         field = parentField.name;
-        Debug.Log(field);
     }
 
     public void RemoveCardFromBench()

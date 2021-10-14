@@ -202,6 +202,8 @@ GameObject:
   - component: {fileID: 296890930}
   - component: {fileID: 296890929}
   - component: {fileID: 296890928}
+  - component: {fileID: 296890932}
+  - component: {fileID: 296890933}
   m_Layer: 5
   m_Name: SubBenchField
   m_TagString: Untagged
@@ -305,6 +307,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296890926}
   m_CullTransparentMesh: 1
+--- !u!114 &296890932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296890926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1346aab01ff804eafbdd096a54c182c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &296890933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296890926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28de3d5b568f7483e9a18ab2d4ca1b53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  max: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -660,6 +687,9 @@ GameObject:
   - component: {fileID: 1316799983}
   - component: {fileID: 1316799985}
   - component: {fileID: 1316799984}
+  - component: {fileID: 1316799986}
+  - component: {fileID: 1316799987}
+  - component: {fileID: 1316799988}
   m_Layer: 5
   m_Name: BattleField
   m_TagString: Untagged
@@ -724,6 +754,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1316799982}
   m_CullTransparentMesh: 1
+--- !u!114 &1316799986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316799982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1346aab01ff804eafbdd096a54c182c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1316799987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316799982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!114 &1316799988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316799982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8592dc722d9944bdbac4faabddae0088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  max: 0
 --- !u!1 &1320815717
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,6 +817,8 @@ GameObject:
   - component: {fileID: 1320815720}
   - component: {fileID: 1320815719}
   - component: {fileID: 1320815721}
+  - component: {fileID: 1320815722}
+  - component: {fileID: 1320815723}
   m_Layer: 5
   m_Name: BenchField
   m_TagString: Untagged
@@ -826,6 +909,31 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &1320815722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320815717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1346aab01ff804eafbdd096a54c182c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1320815723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320815717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb768fb7571674a5799568001cbd18ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  max: 0
 --- !u!1 &1575781277
 GameObject:
   m_ObjectHideFlags: 0
@@ -942,6 +1050,7 @@ GameObject:
   - component: {fileID: 1855282142}
   - component: {fileID: 1855282141}
   - component: {fileID: 1855282140}
+  - component: {fileID: 1855282143}
   m_Layer: 5
   m_Name: AddBenchButton
   m_TagString: Untagged
@@ -1063,6 +1172,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1855282138}
   m_CullTransparentMesh: 1
+--- !u!114 &1855282143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855282138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1346aab01ff804eafbdd096a54c182c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1864598411
 GameObject:
   m_ObjectHideFlags: 0
